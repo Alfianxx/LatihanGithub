@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+        val vi = View(this)
 
 
 
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show()
 
-        makeText(this, "hello", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "hello", Toast.LENGTH_LONG).show()
         Toast.makeText(this, "hello", Toast.LENGTH_LONG).show()
     }
 
