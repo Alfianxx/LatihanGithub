@@ -12,12 +12,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val vi = View(this)
 
-        Snackbar.make(vi, "Text baru", Snackbar.LENGTH_SHORT)
 
+
+
+        Snackbar.make(vi, "Text baru", Snackbar.LENGTH_SHORT).show()
+
+        Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show()
+
+        makeText(this, "hello", Toast.LENGTH_LONG).show()
         Toast.makeText(this, "hello", Toast.LENGTH_LONG).show()
-
     }
 
 }
